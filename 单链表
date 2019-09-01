@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+typedef struct Node *To;
+struct Node{
+  int data;
+  To next;
+  };
